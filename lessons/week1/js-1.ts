@@ -114,7 +114,7 @@ let pondScope: string[] = ["duck", "realDuck"];
 
 //problem 10
 
-function outerFN(): string {
+function outerFN(): any {
   () => "James";
 }
 
